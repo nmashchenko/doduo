@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "next/core-web-vitals" // Needed to avoid warning in next.js build: 'The Next.js plugin was not detected in your ESLint configuration'
+//    "@vercel/style-guide/eslint/browser",
+//    "@vercel/style-guide/eslint/react",
+//    "@vercel/style-guide/eslint/next"
+  ]
+}
