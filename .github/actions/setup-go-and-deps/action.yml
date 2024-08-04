@@ -10,10 +10,6 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Print go.mod
-      shell: bash
-      run: |
-        cat backend/go.mod
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Setup Go
