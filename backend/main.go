@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/nmashchenko/doduo/cmd"
 
 func main() {
-    fmt.Println("Tolya loh")
+	cmd.Execute()
 }
